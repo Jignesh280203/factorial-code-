@@ -1,6 +1,6 @@
 #include <stdio.h>
 int fact(int b){
-    if (b==1 || b==0){
+    if (b==1 || b==0){  \\base condition
         return 1;
     }
     return fact(b-1)*b;
